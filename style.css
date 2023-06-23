@@ -96,7 +96,6 @@ main {
 }
 
 .card .icon{
-    background-color: blue;
     width: 3.5rem;
     align-self: flex-end;
     justify-self: flex-end;
