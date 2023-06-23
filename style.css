@@ -145,15 +145,17 @@ main {
 
     .container-feature {
         justify-content: center;
+        align-items: center;
         grid-template-columns: repeat(3, minmax(0, min(calc(400/16*1rem), 100%)));
         grid-template-areas:
             "supervisor teamBuilder calculator"
             "supervisor karma calculator"
     }
 
-    .section-supervisor,
+    /* replaced with align-items: center in .container-feature */
+    /* .section-supervisor,
     .section-calculator {
         margin: auto 0;
-    }
+    } */
 }
 
